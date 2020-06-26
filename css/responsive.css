@@ -1,0 +1,320 @@
+
+@media (max-width: 575.98px) {
+    .navbar-brand {
+    font-size: 21px;
+}
+    .navbar-toggler {
+    font-size: 20px;
+    border: 1px solid #fff;
+    
+    width: 50px;
+    height: 25px;
+    padding-bottom: 25px;
+}
+    .banner-content{
+        padding: 20px 0px 30px 0px;
+    }
+    .banner-content h1 {
+    font-size: 20px;
+    }
+    .banner-content p {
+    font-size: 12px;
+    padding-top: 71px;
+    }
+    .banner-content h1::before {
+    bottom: -30px;
+    }
+    #services {
+    padding: 30px 0px;
+}
+    .common-heading h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+    .common-heading h3::before {
+    bottom: -20px;
+   
+}
+    #services .icon-ser img{
+        width: 30px;
+        height: auto;
+    }
+    #services h4 {
+    font-size: 16px;
+    padding: 16px 0px 7px 0px;
+}
+    #services p{
+        margin-bottom: 15px;
+    }
+    .other-content {
+    padding: 50px 10px 30px 10px;
+}
+    .other-header h4{
+        padding-bottom: 7px;
+        font-size: 20px;
+    }
+    .other-header p{
+        font-size: 12px;
+    }
+    .other-inner p {
+    font-size: 12px;
+    padding-bottom: 17px;
+}
+    .other-content button {
+    height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+}
+    .portfolio-content {
+    padding: 50px 10px 30px 10px;
+}
+    .top-heading h4 {
+    font-size: 20px;
+}
+    .top-heading p {
+    font-size: 12px;
+    padding-top: 7px;
+}
+    .top-content p {
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+    .performance p{
+        font-size: 12px;
+    }
+    .performance h1{
+        font-size: 18px;
+    }
+    #about {
+    padding: 50px 0px 0px 0px;
+}
+    .content {
+    padding: 20px 0px;
+}
+    #team{
+        padding: 50px 0px;
+    }
+    .team {
+    padding: 0px 0px;
+}
+    .picture {
+    height: 150px;
+    width: 150px;
+    }
+    .team-content h5 {
+    font-size: 14px;
+    }
+     .team-content p{
+    font-size: 12px;
+    }
+    .team-bottom {
+    font-size: 12px;
+        margin-top: 30px;
+    }
+    #contact{
+        padding: 50px 0px;
+    }
+    #contact h4 {
+    font-size: 20px;
+}
+    #contact h6 {
+    font-size: 12px;
+    padding: 17px 0px 10px 0px;
+}
+    .contact-icon .fas, .contact-icon .fab {
+    color: #fff;
+    font-size: 14px;
+    margin:  5px 0px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+ 
+    .contact-icon p{
+        font-size: 12px;
+    }
+    .contact-media{
+        padding-bottom: 17px;
+    }
+    #contact button{
+        height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    }
+    footer p {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+    banner-content p {
+    padding-top: 42px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar-toggler {
+    font-size: 32px; 
+}
+.banner-content {
+    padding: 70px 0px;
+}
+    .banner-content h1 {
+    font-size: 40px;
+}
+    .banner-content h1::before {
+    bottom: -19px;
+}
+      banner-content p {
+    padding-top: 42px;
+}
+    #services, #team, #about, #contact{
+        padding: 50px 0px 30px 0px;
+    }
+    .common-heading h3::before {
+    bottom: -18px;
+}
+    .common-heading h3 {
+     font-size: 30px;
+    margin-bottom: 40px;
+}
+ 
+  
+    
+    #services h4 {
+    padding: 16px 0px 7px 0px;
+}
+    #services p{
+        margin-bottom: 15px;
+    }
+    .other-content {
+      padding-top: 80px;
+}
+    .other-header h4{
+        padding-bottom: 7px; 
+        font-size: 30px;
+    }
+    
+    .other-inner p {
+    padding-bottom: 17px;
+}
+    .other-content button {
+    height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+}
+    .portfolio-content {
+    padding-top:80px;
+}
+    .top-heading h4 {
+    font-size: 30px;
+}
+    .top-heading p {
+    padding-top: 7px;
+}
+    .top-content p {
+    margin-bottom: 17px;
+}
+
+    .content {
+    padding: 20px 0px;
+}
+    
+ .team {
+    padding: 0px 0px;
+}
+    .picture {
+    height: 150px;
+    width: 150px;
+    }
+    
+    .team-bottom{
+        margin-top: 30px;
+    } 
+    
+    
+    #contact h4 {
+    font-size: 30px;
+}
+    #contact h6 {
+  
+    padding: 17px 0px 20px 0px;
+}
+    .contact-icon .fas, .contact-icon .fab {
+    margin:  5px 0px;   
+}
+ 
+    
+    .contact-media{
+        padding-bottom: 17px;
+    }
+    
+    #contact button{
+        height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    }
+    
+    footer p {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 0px;
+    
+}
+ .team-content .fab {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 20px;
+} 
+  
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .nav-link {
+    margin-left: 10px;
+}
+    .banner-content {
+    padding: 100px 0px;
+}
+    #services, #team, #about, #contact{
+        padding: 50px 0px 30px 0px;
+    }
+      .other-content {
+    padding: 50px 10px 30px 30px;
+}
+    .portfolio-content {
+   padding: 50px 10px 30px 30px;
+}
+    .performance p{
+        font-size: 12px;
+    }
+    .performance h1{
+        font-size: 14px;
+    }
+     .content {
+    padding: 10px 0px;
+}
+    .team {
+    padding: 0px 0px;
+}
+    .picture {
+    height: 150px;
+    width: 150px;
+    }
+    .contact-icon .fas, .contact-icon .fab {
+    margin:  5px 0px;   
+}
+}
+
+
