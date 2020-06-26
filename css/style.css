@@ -625,6 +625,28 @@ footer a:hover{
     color:#999999;
     
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #35c2f8;
+  color: white;
+  cursor: pointer;
+  height: 25px;
+    width: 25px;
+  border-radius: 50%;
+    box-shadow: 0px 0px 5px #35c2f8;
+}
+
+#myBtn:hover {
+  color: #555;
+}
+
 @media(max-width:767px){
 .timeline{
     padding: 0px;
