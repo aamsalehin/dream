@@ -46,6 +46,14 @@ h1, h2, h3, h4, h5, h6, p, ul{
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    transition:.5s;
+}
+.nav-link:hover{
+    color: #35b9eb;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #fff;
 }
 .navbar-toggler{
     color: #fff;
@@ -491,9 +499,7 @@ li{
     background-color: #f7f7f7;
     padding: 100px 0px;
 }
-.team{
-    padding: 0px 100px;
-}
+
 .picture{
     height: 225px;
     width: 225px;
@@ -570,7 +576,7 @@ li{
 .contact-icon .fas, .contact-icon .fab{
     color: #fff;
     font-size: 20px;
-    margin: 18px 5px 18px 0px;
+    margin: 0px 5px 14px 0px;
     height: 40px;
     width: 40px;
     text-align: center;

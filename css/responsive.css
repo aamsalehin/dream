@@ -99,9 +99,7 @@
     #team{
         padding: 50px 0px;
     }
-    .team {
-    padding: 0px 0px;
-}
+ 
     .picture {
     height: 150px;
     width: 150px;
@@ -233,9 +231,7 @@
     padding: 20px 0px;
 }
     
- .team {
-    padding: 0px 0px;
-}
+
     .picture {
     height: 150px;
     width: 150px;
@@ -296,8 +292,23 @@
     #services, #team, #about, #contact{
         padding: 50px 0px 30px 0px;
     }
+    .common-heading h3::before {
+    bottom: -22px;
+}
+    .common-heading h3 {
+     
+    margin-bottom: 45px;
+}
       .other-content {
     padding: 50px 10px 30px 30px;
+}
+    .other-content button {
+    height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+        margin-top: 10px;
 }
     .portfolio-content {
    padding: 50px 10px 30px 30px;
@@ -311,16 +322,49 @@
      .content {
     padding: 10px 0px;
 }
-    .team {
-    padding: 0px 0px;
-}
+ 
     .picture {
     height: 150px;
     width: 150px;
     }
-    .contact-icon .fas, .contact-icon .fab {
-    margin:  5px 0px;   
+    .contact-icon .fas, .contact-icon .fab{
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 5px 15px 0px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    
 }
+    
+    #contact button{
+        height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    }
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px){
+     #services, #team, #about, #contact{
+        padding: 50px 0px 30px 0px;
+    }
+    .other-content {
+    padding: 50px 10px 30px 30px;
+}
+    .portfolio-content {
+   padding: 50px 10px 30px 30px;
+}
+    
+    
+}
+
+@media (min-width: 1200px){
+    #team, #contact, #about{
+        padding-right: 95px;
+        padding-left: 95px;
+    }
+}
 
