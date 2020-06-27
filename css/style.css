@@ -39,6 +39,11 @@ h1, h2, h3, h4, h5, h6, p, ul{
     font-size: 36px;
     color: #fff;
 }
+.navbar button{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
 .nav-link{
     color:#fff;
     margin-left: 45px;
@@ -55,16 +60,18 @@ h1, h2, h3, h4, h5, h6, p, ul{
 .navbar-brand:hover{
     color: #fff;
 }
-.navbar-toggler{
-    color: #fff;
-    font-size: 40px;
-    padding: none;
-    border: 1px solid #fff;
-   
-    width: 60px;
-    height: 44px;
-    padding-bottom: 12px;
+.bar-main{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 3px 10px 7px 10px;
+    border-radius: 3px;
 }
+.bars{
+    
+    width: 23px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    height: 5px;
+}
+
 
 .navbar-toggler:focus{
     outline: none;
