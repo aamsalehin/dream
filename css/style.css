@@ -556,7 +556,7 @@ li{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    text-transform: capitalize;  
+    text-transform: uppercase;  
 }
 #contact h6{
     font-family: 'Noto Sans', sans-serif;
